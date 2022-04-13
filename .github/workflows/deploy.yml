@@ -20,7 +20,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build --base-href "" && echo "---\npermalink: /\n---" > 404.md
+          ng build --base-href "" && echo "---\npermalink: /\n---" > 404.md
 
       - name: Deploy to GH Page
         uses: JamesIves/github-pages-deploy-action@4.1.1
