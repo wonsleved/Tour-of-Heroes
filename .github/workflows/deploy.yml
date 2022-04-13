@@ -24,7 +24,7 @@ jobs:
 
       - name: Create 404.md
         run: |
-          echo "---\npermalink: /\n---" > dist/tour-of-heroues/404.md
+          echo -e "---\npermalink: /\n---" > dist/tour-of-heroues/404.md
 
       - name: Deploy to GH Page
         uses: JamesIves/github-pages-deploy-action@4.1.1
