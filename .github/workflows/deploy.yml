@@ -24,7 +24,7 @@ jobs:
 
       - name: Create 404.md
         run: |
-          ln -s dist/tour-of-heroues/index.html dist/tour-of-heroues/404.html
+          ln -s index.html dist/tour-of-heroues/404.html
 
       - name: Deploy to GH Page
         uses: JamesIves/github-pages-deploy-action@4.1.1
