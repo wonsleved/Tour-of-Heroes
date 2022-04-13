@@ -20,8 +20,8 @@ jobs:
 
       - name: Build
         run: |
-          ng build --base-href ""
-          
+          npm run build
+
       - name: Create 404.md
         run: |
           echo "---\npermalink: /\n---" > dist/tour-of-heroues/404.md
